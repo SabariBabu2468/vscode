@@ -6,7 +6,14 @@ body {
     width: 50px;
 }
 
+#name {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: initial;
+    font-weight: bolder;
 
+}
 
 .topmenu {
     display: flex;
@@ -43,16 +50,19 @@ body {
 #search-bar {
     width: 240px;
     padding: 5px;
-    border: 2px solid #677177;  /* Blue outer border */
+    border: 2px solid #677177;
+    /* Blue outer border */
     border-radius: 25px;
-    background-color: #000;  /* Black background */
+    background-color: #000;
+    /* Black background */
     color: white;
     font-size: 16px;
     outline: none;
 }
 
 #search-bar::placeholder {
-    color: #bbb;  /* Light gray placeholder */
+    color: #bbb;
+    /* Light gray placeholder */
 }
 
 #button {
@@ -105,7 +115,7 @@ body {
 }
 
 
-.secondpart{
+.secondpart {
     color: gray;
     margin-left: 400px;
     margin-top: 25px;
@@ -124,7 +134,7 @@ body {
     font-weight: 600;
     padding: 8px 12px;
     border-radius: 32px;
-    border:0.01px solid ;
+    border: 0.01px solid;
     width: max-content;
     margin-bottom: 8px;
 }
@@ -147,4 +157,71 @@ h5 {
 
 #atag {
     color: #3498db;
+}
+
+
+.second {
+    color: rgb(206, 211, 215);
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.leftpart {
+    max-width: 440px;
+    margin-left: 100px;
+
+
+}
+#left1 {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: initial;
+    font-weight: bolder;
+}
+
+#left2 {
+    color: white;
+    padding-top: 30px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.rightpart {
+    color: white;
+    padding-left: 100px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+
+}
+
+#image {
+    width: 60px;
+}
+
+.set1 {
+    padding-right: 70px;
+
+}
+
+.set2 {
+    padding-right: 70px;
+    padding-left: 30px;
+
+}
+
+.set3 {
+    padding-left: 30px;
+
+    padding-right: 70px;
+
+}
+
+.set4 {
+    padding-left: 30px;
+
+    padding-right: 70px;
 }
