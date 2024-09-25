@@ -1,0 +1,9 @@
+command+d -- select all div
+div take full width
+For javascript, harshit vashishth 3 part video series on JS is sufficient to crack interviews..its a total of approx 23 hours of content
+
+        Code Editing. 
+        Redefined.
+        Download for macOS
+        Web, Insiders edition, or other platforms
+        By using VS Code, you agree to its license and privacy statement.

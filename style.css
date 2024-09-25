@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+}
+
+#vscodelogo {
+    width: 50px;
+}
+
+
+
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+
+.top-left {
+    padding-top: 12px;
+    font-size: larger;
+
+}
+
+.toplink {
+    color: gray;
+    cursor: pointer;
+    padding-left: 15px;
+
+}
+
+.toplink:hover {
+    color: #3498db;
+    /* Changes text color to blue on hover */
+}
+
+.mainbar-right {
+    padding-top: 18px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#search-bar {
+    width: 240px;
+    padding: 5px;
+    border: 2px solid #677177;  /* Blue outer border */
+    border-radius: 25px;
+    background-color: #000;  /* Black background */
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+#search-bar::placeholder {
+    color: #bbb;  /* Light gray placeholder */
+}
+
+#button {
+    background-color: #1a6ea6;
+    /* Blue background */
+    color: white;
+    /* White text */
+    padding: 8px 18px;
+    /* Padding inside the button */
+    font-size: 16px;
+    /* Font size */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+#button:hover {
+    background-color: #0c476e;
+    /* Darker blue on hover */
+}
+
+#button2 {
+    background-color: #1a6ea6;
+    /* Blue background */
+    color: white;
+    /* White text */
+    padding: 17px 23px;
+    /* Padding inside the button */
+    font-size: 24px;
+    /* Font size */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    /* Smooth transition on hover */
+}
+
+#button2:hover {
+    background-color: #0c476e;
+    /* Darker blue on hover */
+}
+
+
+.secondpart{
+    color: gray;
+    margin-left: 400px;
+    margin-top: 25px;
+    font-size: large;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+#freerun {
+    color: rgb(138, 147, 150);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 32px;
+    border:0.01px solid ;
+    width: max-content;
+    margin-bottom: 8px;
+}
+
+#codere {
+    color: white;
+    padding-top: 30px;
+    font-size: 45px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    color: rgb(161, 150, 150);
+}
+
+h5 {
+    color: rgb(161, 150, 150);
+}
+
+#atag {
+    color: #3498db;
+}
